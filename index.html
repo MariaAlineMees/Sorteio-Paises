@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <title>Jogo de Países</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- CSS atualizado -->
+    <script src="app.js" defer></script> <!-- JavaScript atualizado -->
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bem-vindo ao Jogo de Países</h1>
+        <button id="botaoIniciar">Iniciar Jogo</button>
+
+        <div id="botoes" style="display: none;">
+            <div class="input-container">
+                <input type="text" id="inputPais" placeholder="Digite um país">
+                <button id="botaoAdicionar">Adicionar</button>
+            </div>
+            <button id="botaoNao">Parar e Sortear</button>
+            <button id="botaoRemover">Remover País</button>
+        </div>
+
+        <div id="lista"></div>
+        <div id="resultado"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</body>
+</html>
